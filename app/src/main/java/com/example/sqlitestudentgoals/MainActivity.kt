@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         btnnewgoal.setOnClickListener(){
         }
         btnaccesssettings.setOnClickListener(){
-            val i = Intent(applicationContext, SettingsActivity::class.java)
+            val i = Intent(this, SettingsActivity::class.java)
             startActivity(i)
         }
     }
